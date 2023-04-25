@@ -1,0 +1,795 @@
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+                <!-- Begin content -->
+                <div id="page_content_wrapper" class="noheader">
+                    <div class="inner">
+                        <!-- Begin main content -->
+                        <div class="inner_wrapper">
+                            <div class="sidebar_content full_width">
+                                <div data-elementor-type="wp-page" data-elementor-id="606" class="elementor elementor-606" data-elementor-settings="[]">
+                                    <div class="elementor-inner">
+                                        <div class="elementor-section-wrap">
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-fa72742 elementor-section-stretched elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                                                data-id="fa72742"
+                                                data-element_type="section"
+                                                data-settings='{"stretch_section":"section-stretched","background_background":"classic","hoteller_ext_is_background_on_scroll":"false"}'
+                                            >
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f3dde98"
+                                                            data-id="f3dde98"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-ead429c elementor-widget elementor-widget-hoteller-animated-text"
+                                                                        data-id="ead429c"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"hoteller_ext_is_fadeout_animation":"true","hoteller_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.40000000000000002220446049250313080847263336181640625,"sizes":[]},"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation_direction":"up"}'
+                                                                        data-widget_type="hoteller-animated-text.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div
+                                                                                class="themegoods-animated-text text-alignment-center transition-bottom overflow-hidden"
+                                                                                data-delimiter="word"
+                                                                                data-transition="100"
+                                                                                data-transition-delay="0"
+                                                                                data-transition-duration="800"
+                                                                            >
+                                                                                <h1>
+                                                                                    Activities & Services
+                                                                                </h1>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-cc1b3a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="cc1b3a8"
+                                                data-element_type="section"
+                                                data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                            >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5fad1bf"
+                                                            data-id="5fad1bf"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-3ca16d4 elementor-widget elementor-widget-hoteller-animated-text"
+                                                                        data-id="3ca16d4"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="hoteller-animated-text.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div
+                                                                                class="themegoods-animated-text text-alignment-center transition-bottom overflow-hidden"
+                                                                                data-delimiter="sentence"
+                                                                                data-transition="100"
+                                                                                data-transition-delay="0"
+                                                                                data-transition-duration="800"
+                                                                            >
+                                                                                <h2>
+                                                                                    Make your way to Bangkok’s coveted riverside and discover our urban sanctuary in the city’s creative district. Surrounded by galleries, boutiques,
+                                                                                    restaurants and cafés, our Hotel is a hub of energy and style.
+                                                                                </h2>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            
+                                           
+
+                                            {% for service in service %}
+                                            <div id="ribin_padding1" class="ribin_padding">
+
+                                            {% if service.title %}
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-7a07bfd elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="7a07bfd"
+                                                data-element_type="section"
+                                               data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                             >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-31a4eb4"
+                                                            data-id="31a4eb4" id="ribin_overflow"
+                                                            data-element_type="column"
+                                                            data-settings='{"background_background":"classic","hoteller_ext_is_scrollme":"true","hoteller_ext_scrollme_translatey":{"unit":"px","size":-60,"sizes":[]},"hoteller_ext_scrollme_disable":"mobile","hoteller_ext_scrollme_smoothness":{"unit":"px","size":30,"sizes":[]},"hoteller_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_is_smoove":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                         >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-d9f1ca4 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                                        data-id="d9f1ca4"
+                                                                        data-element_type="section"
+                                                                        data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                                                    >
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div
+                                                                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-c92b310"
+                                                                                    data-id="c92b310"
+                                                                                    data-element_type="column"
+                                                                                    data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                >
+                                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-7dc04ae elementor-widget elementor-widget-heading"
+                                                                                                data-id="7dc04ae"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                                                                        <a href="deluxe-room.html">{{service.title}}</a>
+                                                                                                    </h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-beae760 elementor-widget elementor-widget-heading"
+                                                                                                data-id="beae760"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <span class="elementor-heading-title elementor-size-default">{{service.sub_head}}</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-ebdf091 elementor-widget elementor-widget-text-editor"
+                                                                                                data-id="ebdf091"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="text-editor.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                                        <p>{{service.detail}}</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-43a6608 elementor-widget__width-auto elementor-widget elementor-widget-image"
+                                                                                                data-id="43a6608"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="image.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-image">
+                                                                                                        <a href="deluxe-room.html">
+                                                                                                            <img
+                                                                                                                width="36"
+                                                                                                                height="26"
+                                                                                                                src="{% static 'web/upload/arrow_right_icon.png' %}"
+                                                                                                                class="attachment-large size-large"
+                                                                                                                alt=""
+                                                                                                                loading="lazy"
+                                                                                                            />
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-bd9fc44 elementor-widget__width-auto elementor-widget elementor-widget-heading"
+                                                                                                data-id="bd9fc44"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><a href="deluxe-room.html">Book Now</a></h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-2f295ac"
+                                                            data-id="2f295ac"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-70a496d elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-inherit elementor-widget elementor-widget-image"
+                                                                        data-id="70a496d"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"_position":"absolute","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="image.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <a href="deluxe-room.html">
+                                                                                    <img id="ribin_img"
+                                                                                        width="1024"
+                                                                                        height="683"
+                                                                                        src="{{service.image.url}}"
+                                                                                        class="attachment-large size-large"
+                                                                                        alt=""
+                                                                                        loading="lazy"
+                                                                                    />
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            {% endif %}
+                                            
+
+                                            {% if service.title2 %}
+                                             <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-1ea7ef4 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="1ea7ef4"
+                                                data-element_type="section"
+                                                data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'  id="ribin_padding"
+                                             >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-54646ea"
+                                                            data-id="54646ea"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-2aba535 elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-inherit elementor-widget elementor-widget-image"
+                                                                        data-id="2aba535"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"_position":"absolute","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="image.default"
+                                                                    >
+                                                                    
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <a href="deluxe-room.html">
+                                                                                    <img
+                                                                                        width="1024"
+                                                                                        height="683"
+                                                                                        src="{{service.image2.url}}"
+                                                                                        class="attachment-large size-large"
+                                                                                        alt=""
+                                                                                        loading="lazy"
+                                                                                    />
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                      
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4a99570"
+                                                            data-id="4a99570"
+                                                            data-element_type="column"
+                                                            data-settings='{"background_background":"classic","hoteller_ext_is_scrollme":"true","hoteller_ext_scrollme_translatey":{"unit":"px","size":-60,"sizes":[]},"hoteller_ext_scrollme_disable":"mobile","hoteller_ext_scrollme_smoothness":{"unit":"px","size":30,"sizes":[]},"hoteller_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_is_smoove":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-cf44973 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                                        data-id="cf44973"
+                                                                        data-element_type="section"
+                                                                        data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                                                    >
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div
+                                                                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e010aac"
+                                                                                    data-id="e010aac"
+                                                                                    data-element_type="column"
+                                                                                    data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                >
+                                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-f4b409b elementor-widget elementor-widget-heading"
+                                                                                                data-id="f4b409b"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                                                                        <a href="">{{service.title2}}</a>
+                                                                                                    </h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-9c9f271 elementor-widget elementor-widget-heading"
+                                                                                                data-id="9c9f271"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <span class="elementor-heading-title elementor-size-default">{{service.sub_head2}}</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-1dec76e elementor-widget elementor-widget-text-editor"
+                                                                                                data-id="1dec76e"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="text-editor.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                                        <p>{{service.detail2}}</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-d2e26ca elementor-widget__width-auto elementor-widget elementor-widget-image"
+                                                                                                data-id="d2e26ca"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="image.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-image">
+                                                                                                        <a href="deluxe-room.html">
+                                                                                                            <img
+                                                                                                                width="36"
+                                                                                                                height="26"
+                                                                                                                src="{% static 'web/upload/arrow_right_icon.png' %}"
+                                                                                                                class="attachment-large size-large"
+                                                                                                                alt=""
+                                                                                                                loading="lazy"
+                                                                                                            />
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-d1fc5e3 elementor-widget__width-auto elementor-widget elementor-widget-heading"
+                                                                                                data-id="d1fc5e3"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><a href="deluxe-room.html">Book Now</a></h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            {% endif %}
+                                            </div>
+
+                                            {% endfor %}
+
+
+
+                                            {% comment %} <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-14488c8 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="14488c8"
+                                                data-element_type="section"
+                                                data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                             >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a50db11"
+                                                            data-id="a50db11"
+                                                            data-element_type="column"
+                                                            data-settings='{"background_background":"classic","hoteller_ext_is_scrollme":"true","hoteller_ext_scrollme_translatey":{"unit":"px","size":-60,"sizes":[]},"hoteller_ext_scrollme_disable":"mobile","hoteller_ext_scrollme_smoothness":{"unit":"px","size":30,"sizes":[]},"hoteller_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_is_smoove":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-a6a9ec2 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                                        data-id="a6a9ec2"
+                                                                        data-element_type="section"
+                                                                        data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                                                    >
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div
+                                                                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-0eca8c1"
+                                                                                    data-id="0eca8c1"
+                                                                                    data-element_type="column"
+                                                                                    data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                >
+                                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-7db5fda elementor-widget elementor-widget-heading"
+                                                                                                data-id="7db5fda"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                                                                        <a href="deluxe-room.html">Signature room with city view</a>
+                                                                                                    </h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-2dfceab elementor-widget elementor-widget-heading"
+                                                                                                data-id="2dfceab"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <span class="elementor-heading-title elementor-size-default">70m² / 3 adults / 2 children</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-ce6d873 elementor-widget elementor-widget-text-editor"
+                                                                                                data-id="ce6d873"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="text-editor.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                                        <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-b2cba8a elementor-widget__width-auto elementor-widget elementor-widget-image"
+                                                                                                data-id="b2cba8a"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="image.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-image">
+                                                                                                        <a href="deluxe-room.html">
+                                                                                                            <img
+                                                                                                                width="36"
+                                                                                                                height="26"
+                                                                                                                src="{% static 'web/upload/arrow_right_icon.png' %}"
+                                                                                                                class="attachment-large size-large"
+                                                                                                                alt=""
+                                                                                                                loading="lazy"
+                                                                                                            />
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-4018907 elementor-widget__width-auto elementor-widget elementor-widget-heading"
+                                                                                                data-id="4018907"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><a href="deluxe-room.html">Book Now</a></h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-c9ca8e7"
+                                                            data-id="c9ca8e7"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-2365c70 elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-inherit elementor-widget elementor-widget-image"
+                                                                        data-id="2365c70"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"_position":"absolute","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="image.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <a href="deluxe-room.html">
+                                                                                    <img
+                                                                                        width="1024"
+                                                                                        height="683"
+                                                                                        src="{% static 'web/upload/im3rd-media-CbZ4EDP__VQ-unsplash-1024x683.jpg' %}"
+                                                                                        class="attachment-large size-large"
+                                                                                        alt=""
+                                                                                        loading="lazy"
+                                                                                    />
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-c6df5d0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="c6df5d0"
+                                                data-element_type="section"
+                                                data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                             >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-f70a123"
+                                                            data-id="f70a123"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-b2c1d50 elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-inherit elementor-widget elementor-widget-image"
+                                                                        data-id="b2c1d50"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"_position":"absolute","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="image.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <a href="deluxe-room.html">
+                                                                                    <img
+                                                                                        width="1024"
+                                                                                        height="693"
+                                                                                        src="{% static 'web/upload/chastity-cortijo-R-w5Q-4Mqm0-unsplash-1024x693.jpg' %}"
+                                                                                        class="attachment-large size-large"
+                                                                                        alt=""
+                                                                                        loading="lazy"
+                                                                                    />
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-36347ae"
+                                                            data-id="36347ae"
+                                                            data-element_type="column"
+                                                            data-settings='{"background_background":"classic","hoteller_ext_is_scrollme":"true","hoteller_ext_scrollme_translatey":{"unit":"px","size":-60,"sizes":[]},"hoteller_ext_scrollme_disable":"mobile","hoteller_ext_scrollme_smoothness":{"unit":"px","size":30,"sizes":[]},"hoteller_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"hoteller_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"hoteller_ext_is_smoove":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-cd629a9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                                        data-id="cd629a9"
+                                                                        data-element_type="section"
+                                                                        data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                                                    >
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div
+                                                                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-30c0dd9"
+                                                                                    data-id="30c0dd9"
+                                                                                    data-element_type="column"
+                                                                                    data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                >
+                                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-52a5235 elementor-widget elementor-widget-heading"
+                                                                                                data-id="52a5235"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                                                                        <a href="deluxe-room.html">Luxury suite with city view</a>
+                                                                                                    </h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-33d78aa elementor-widget elementor-widget-heading"
+                                                                                                data-id="33d78aa"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <span class="elementor-heading-title elementor-size-default">120m² / 4 adults / 2 children</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-90c625e elementor-widget elementor-widget-text-editor"
+                                                                                                data-id="90c625e"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="text-editor.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                                        <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-e0fe788 elementor-widget__width-auto elementor-widget elementor-widget-image"
+                                                                                                data-id="e0fe788"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="image.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-image">
+                                                                                                        <a href="deluxe-room.html">
+                                                                                                            <img
+                                                                                                                width="36"
+                                                                                                                height="26"
+                                                                                                                src="{% static 'web/upload/arrow_right_icon.png' %}"
+                                                                                                                class="attachment-large size-large"
+                                                                                                                alt=""
+                                                                                                                loading="lazy"
+                                                                                                            />
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="elementor-element elementor-element-2f2200b elementor-widget__width-auto elementor-widget elementor-widget-heading"
+                                                                                                data-id="2f2200b"
+                                                                                                data-element_type="widget"
+                                                                                                data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                                                data-widget_type="heading.default"
+                                                                                            >
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default"><a href="deluxe-room.html">Book Now</a></h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>  {% endcomment %}
+
+                                            <section
+                                                class="elementor-section elementor-top-section elementor-element elementor-element-665df56 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                data-id="665df56"
+                                                data-element_type="section"
+                                                data-settings='{"hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'
+                                            >
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div
+                                                            class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4589739"
+                                                            data-id="4589739"
+                                                            data-element_type="column"
+                                                            data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                        >
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div
+                                                                        class="elementor-element elementor-element-33771cc elementor-widget elementor-widget-image"
+                                                                        data-id="33771cc"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="image.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-image">
+                                                                                <img width="90" height="89" src="{% static 'web/upload/noun_leaf_1043119.png' %}" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-646fa5e elementor-widget elementor-widget-hoteller-animated-text"
+                                                                        data-id="646fa5e"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="hoteller-animated-text.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <div
+                                                                                class="themegoods-animated-text text-alignment-center transition-bottom overflow-hidden"
+                                                                                data-delimiter="sentence"
+                                                                                data-transition="100"
+                                                                                data-transition-delay="0"
+                                                                                data-transition-duration="800"
+                                                                            >
+                                                                                <h2>
+                                                                                    “Some places are so good to stay in, you don’t want to generate a rush on them. The Hoteller lodge hotel in Zurich is one of them.”
+                                                                                </h2>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-element elementor-element-9a69c11 elementor-invisible elementor-widget elementor-widget-heading"
+                                                                        data-id="9a69c11"
+                                                                        data-element_type="widget"
+                                                                        data-settings='{"_animation":"fadeInUp","_animation_delay":800,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
+                                                                        data-widget_type="heading.default"
+                                                                    >
+                                                                        <div class="elementor-widget-container">
+                                                                            <span class="elementor-heading-title elementor-size-default">Joe Johnson - Trip Advisor</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End main content -->
+                    </div>
+                    <br class="clear" />
+                </div>
+
+
+            </div>
+
+
+        {% endblock %}
